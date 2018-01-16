@@ -12,6 +12,7 @@
   <div id="app"></div>
   <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
   <script src="https://unpkg.com/docute-iframe"></script>
+  <script src="https://unpkg.com/docute-emojify"></script>
 
   <script>
     const tutorials = [
@@ -26,7 +27,8 @@
     docute.init({
       nav,
       plugins: [
-        docuteIframe()
+        docuteIframe(),
+        docuteEmojify()
       ]
     })
   </script>
