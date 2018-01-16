@@ -11,6 +11,8 @@
 <body>
   <div id="app"></div>
   <script src="https://unpkg.com/docute@3/dist/docute.js"></script>
+  <script src="https://unpkg.com/docute-iframe"></script>
+
   <script>
     const tutorials = [
       { title: 'Vue.js', path: '/tutorials/vue' },
@@ -22,7 +24,10 @@
       { title: '튜토리얼', type: 'dropdown', items: tutorials }
     ]
     docute.init({
-      nav
+      nav,
+      plugins: [
+        docuteIframe()
+      ]
     })
   </script>
 </body>
