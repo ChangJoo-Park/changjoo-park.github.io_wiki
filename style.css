@@ -1,0 +1,39 @@
+:root {
+  --main-color: #2c3e50;
+}
+
+.markdown-body .markdown-heading:focus,
+.markdown-body a {
+  color: var(--main-color);
+}
+
+.token.string {
+  color: #183691
+}
+
+.nav-list .nav-item>a.router-link-active,
+.nav-list .nav-item>div.router-link-active {
+  color: var(--main-color);
+  border-bottom-color: var(--main-color);
+}
+
+.nav-list .nav-item-dropdown .dropdown-list .dropdown-item .router-link-active,
+.nav-list .nav-item-dropdown .dropdown-list .dropdown-item .router-link:hover,
+.sidebar-headings .sidebar-heading .sidebar-heading-anchor.active,
+.sidebar-headings .sidebar-heading .sidebar-heading-anchor:hover {
+  color: var(--main-color);
+}
+
+#nprogress .bar {
+  background: var(--main-color);
+}
+
+#nprogress .spinner-icon {
+  border-top-color: var(--main-color);
+  border-left-color: var(--main-color);
+}
+
+.link:hover,
+.search-form .svg-icon.do-search:hover {
+  color: var(--main-color);
+}
