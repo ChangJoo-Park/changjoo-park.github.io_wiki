@@ -4,6 +4,7 @@
 ### 2018-01-17
 
 - Docute 용 테마인 "Park"를 추가했습니다. [저장소](https://github.com/ChangJoo-Park/docute-theme-park)
+- Docute 플러그인 서버 불안정으로 github 호스팅으로 플러그인을 옮겼습니다.
 
 ### 2018-01-16
 
