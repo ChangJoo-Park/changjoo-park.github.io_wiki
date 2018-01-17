@@ -1,6 +1,10 @@
 
 ## 릴리즈 노트
 
+### 2018-01-17
+
+- Docute 용 테마인 "Park"를 추가했습니다. [저장소](https://github.com/ChangJoo-Park/docute-theme-park)
+
 ### 2018-01-16
 
 - [Docute](https://docute.js.org/#/)를 이용해 기본 페이지를 만들었습니다
