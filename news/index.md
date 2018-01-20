@@ -1,3 +1,7 @@
+### 2018-01-20
+
+- [Strapi](https://strapi.io/) : Koa2 기반 CMS. 사용자 설정 및 데이터베이스 설정까지 웹에서 설정 가능
+
 ### 2018-01-18
 
 - [hapi.js](https://hapijs.com/) : 설정 기반의 Node.js 서비스 프레임워크
